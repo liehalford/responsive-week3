@@ -82,22 +82,18 @@ h3 {
 .email-link:hover {
   text-decoration: underline;
 }
-@media (max-width: 600px) {
-  .main-page {
-    display: none;
-  }
+@media (max-width: 576px) {
   .email-link {
     font-size: 18px;
   }
-  .navigation-links {
-    margin-top: 0px;
+  h5 {
+    text-align: center;
   }
-  .btn-primary {
+  p {
+    text-align: center;
+  }
+  .btn {
     display: block;
-    margin: auto;
-  }
-  .row {
-    width: 100%;
     text-align: center;
   }
 }
